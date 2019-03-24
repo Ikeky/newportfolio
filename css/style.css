@@ -1,0 +1,42 @@
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu';
+	/*
+	  font-family: 'Ubuntu',Arial, sans-serif;
+	  font-family: 'Oswald', sans-serif;
+	*/
+}
+html{
+	height:100%;
+}
+body{
+	height:100%;
+	background-color: #10131c !important;
+}
+.divimg{
+	background-image:url('../images/main2.jpg');
+	background-size:100%;
+	background-position: 0 -25rem;
+}
+.white-text{
+	color:white;
+}
+.boxes{
+	background:#2d2d2d;
+	border-radius: 5px;
+	color:orange;
+}
+@media (max-width: 512px) {
+	.lol{
+		height:170px;
+		overflow: hidden;
+  	}
+}
+@media (min-width: 768px) {
+  .modal-dialog {
+    max-width: 80% !important;
+  }
+}
